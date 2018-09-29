@@ -27,7 +27,8 @@ server = app.server
 external_css = [
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    'https://codepen.io/muhnot/pen/bKzaZr.css'
+    'https://codepen.io/muhnot/pen/bKzaZr.css',
+    'https://raw.githubusercontent.com/daneden/animate.css/master/animate.css'
 ]
 
 external_js = [
@@ -91,8 +92,7 @@ def parse_contents(contents, filename):
         0: 'Broken Windshield',
         1: 'Bumper Damage',
         2: 'Car Accident',
-        3: "Flat Tire",
-        4: "No Damage"
+        3: "Flat Tire"
     }
     img_width, img_height = 150, 150
     if K.image_data_format() == 'channels_first':
@@ -100,17 +100,35 @@ def parse_contents(contents, filename):
     else:
         input_shape = (img_width, img_height, 3)
 
-    model = tf.keras.applications.Xception(include_top=True, weights=None, input_tensor=None,
-                                               input_shape=input_shape, pooling='max', classes=5)
 
+    model = Sequential()
+    model.add(Conv2D(32, (3, 3), input_shape=input_shape))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+
+    model.add(Conv2D(32, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+
+    model.add(Conv2D(64, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+
+    model.add(Flatten())
+    model.add(Dense(64))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(4, activation='softmax'))
+
+    model.compile(loss='categorical_crossentropy',
+                  optimizer='rmsprop',
+                  metrics=['accuracy'])
 
     model.compile(loss='categorical_crossentropy',
                       optimizer='rmsprop',
                       metrics=['accuracy'])
 
-
-    model.load_weights('weights.h5')
-
+    model.load_weights('first_try.h5')
 
     image = contents.split(',')[1]
     data = decodestring(image.encode('ascii'))
@@ -127,7 +145,7 @@ def parse_contents(contents, filename):
         html.H5(className='grey-text',children=['Filename: '+filename]),
         html.Hr(),
         #set img size
-        html.Img(className='materialboxed responsive-img',src=contents),
+        html.Img(className='responsive-img',src=contents),
         html.H5('Predicted category of vehicle is: '+cat),
         html.Hr()
     ])
