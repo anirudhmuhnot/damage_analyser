@@ -2,6 +2,10 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import dash
+import keras
+from tensorflow.keras import backend as K
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import tensorflow as tf
 from flask import send_from_directory
 import pandas as pd
 import datetime
@@ -87,35 +91,27 @@ def parse_contents(contents, filename):
         0: 'Broken Windshield',
         1: 'Bumper Damage',
         2: 'Car Accident',
-        3: "Flat Tire"
+        3: "Flat Tire",
+        4: "No Damage"
     }
     img_width, img_height = 150, 150
     if K.image_data_format() == 'channels_first':
         input_shape = (3, img_width, img_height)
     else:
         input_shape = (img_width, img_height, 3)
-    model = Sequential()
-    model.add(Conv2D(32, (3, 3), input_shape=input_shape))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-    model.add(Conv2D(32, (3, 3)))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
 
-    model.add(Conv2D(64, (3, 3)))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model = tf.keras.applications.Xception(include_top=True, weights=None, input_tensor=None,
+                                               input_shape=input_shape, pooling='max', classes=5)
 
-    model.add(Flatten())
-    model.add(Dense(64))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.5))
-    model.add(Dense(4, activation='softmax'))
 
-    model.load_weights('first_try.h5')
     model.compile(loss='categorical_crossentropy',
-                  optimizer='rmsprop',
-                  metrics=['accuracy'])
+                      optimizer='rmsprop',
+                      metrics=['accuracy'])
+
+
+    model.load_weights('weights.h5')
+
+
     image = contents.split(',')[1]
     data = decodestring(image.encode('ascii'))
     with open("data/test/"+filename, "wb") as f:
