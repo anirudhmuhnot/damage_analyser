@@ -81,15 +81,21 @@ app.layout = html.Div([
 
 def parse_contents(contents, filename, m):
     tf.keras.backend.clear_session()
-    d = {'Bumper Damage': 0,
-         'Broken Lights': 1,
-         'Broken Windshield': 2,
-         'Flat Tire': 3,
-         'No Damage': 4}
-    lookup = {}
-    for v, k in enumerate(d):
-        lookup[v] = k
 
+    # d = {'Bumper Damage': 0,
+    #      'Broken Lights': 1,
+    #      'Broken Windshield': 2,
+    #      'Flat Tire': 3,
+    #      'No Damage': 4}
+    # lookup = {}
+    # for v, k in enumerate(d):
+    #     lookup[v] = k
+    lookup = {
+        0:'Broken Windshield',
+        1:'Bumper Damage',
+        2:'Car Accident',
+        3:'Flat Tire',
+    }
     img_width, img_height = 150, 150
     if K.image_data_format() == 'channels_first':
         input_shape = (3, img_width, img_height)
@@ -114,19 +120,19 @@ def parse_contents(contents, filename, m):
     model.add(tf.keras.layers.Dense(64))
     model.add(tf.keras.layers.Activation('relu'))
     model.add(tf.keras.layers.Dropout(0.5))
-    model.add(tf.keras.layers.Dense(5, activation='softmax'))
+    model.add(tf.keras.layers.Dense(4, activation='softmax'))
 
     model.compile(loss='categorical_crossentropy',
                   optimizer='rmsprop',
                   metrics=['accuracy'])
-    # model.load_weights('first_try.h5')
+    model.load_weights('first_try.h5')
     #
     # model = tf.keras.applications.Xception(include_top=True, weights=None, input_tensor=None, input_shape=input_shape,
     #                                        pooling='max', classes=5)
     # model.compile(loss='categorical_crossentropy',
     #               optimizer='rmsprop',
     #               metrics=['accuracy'])
-    model.load_weights('weights_little20.h5')
+    # model.load_weights('4catlittle.h5')
     image = contents.split(',')[1]
     data = decodestring(image.encode('ascii'))
     with open("data/test/"+filename, "wb") as f:
