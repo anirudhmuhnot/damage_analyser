@@ -81,20 +81,10 @@ app.layout = html.Div([
 
 def parse_contents(contents, filename, m):
     tf.keras.backend.clear_session()
-
-    # d = {'Bumper Damage': 0,
-    #      'Broken Lights': 1,
-    #      'Broken Windshield': 2,
-    #      'Flat Tire': 3,
-    #      'No Damage': 4}
-    # lookup = {}
-    # for v, k in enumerate(d):
-    #     lookup[v] = k
     lookup = {
-        0:'Broken Windshield',
-        1:'Bumper Damage',
-        2:'Car Accident',
-        3:'Flat Tire',
+        0:'Bumper Damage',
+        1:'Broken Windshield',
+        2:'Flat Tire'
     }
     img_width, img_height = 150, 150
     if K.image_data_format() == 'channels_first':
@@ -102,13 +92,8 @@ def parse_contents(contents, filename, m):
     else:
         input_shape = (img_width, img_height, 3)
 
-
     model = tf.keras.models.Sequential()
-    model.add(tf.keras.layers.Conv2D(32, (3, 3), input_shape=input_shape))
-    model.add(tf.keras.layers.Activation('relu'))
-    model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
-
-    model.add(tf.keras.layers.Conv2D(32, (3, 3)))
+    model.add(tf.keras.layers.Conv2D(64, (3, 3), input_shape=input_shape))
     model.add(tf.keras.layers.Activation('relu'))
     model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
 
@@ -116,23 +101,25 @@ def parse_contents(contents, filename, m):
     model.add(tf.keras.layers.Activation('relu'))
     model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
 
+    model.add(tf.keras.layers.Conv2D(64, (3, 3)))
+    model.add(tf.keras.layers.Activation('relu'))
+    model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+
+    model.add(tf.keras.layers.Conv2D(128, (3, 3)))
+    model.add(tf.keras.layers.Activation('relu'))
+    model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+
     model.add(tf.keras.layers.Flatten())
-    model.add(tf.keras.layers.Dense(64))
+    model.add(tf.keras.layers.Dense(128))
     model.add(tf.keras.layers.Activation('relu'))
     model.add(tf.keras.layers.Dropout(0.5))
-    model.add(tf.keras.layers.Dense(4, activation='softmax'))
+    model.add(tf.keras.layers.Dense(3, activation='softmax'))
 
     model.compile(loss='categorical_crossentropy',
-                  optimizer='rmsprop',
+                  optimizer='Adam',
                   metrics=['accuracy'])
-    model.load_weights('first_try.h5')
-    #
-    # model = tf.keras.applications.Xception(include_top=True, weights=None, input_tensor=None, input_shape=input_shape,
-    #                                        pooling='max', classes=5)
-    # model.compile(loss='categorical_crossentropy',
-    #               optimizer='rmsprop',
-    #               metrics=['accuracy'])
-    # model.load_weights('4catlittle.h5')
+
+    model.load_weights('third_trydropout.h5')
     image = contents.split(',')[1]
     data = decodestring(image.encode('ascii'))
     with open("data/test/"+filename, "wb") as f:
