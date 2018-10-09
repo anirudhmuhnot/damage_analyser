@@ -3,7 +3,293 @@
   <component name="ChangeListManager">
     <list default="true" id="f9679241-56dd-468e-833a-a7544d8509a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000053.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000059.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000060.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000065.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000068.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000069.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000070.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000071.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000078.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000081.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000085.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000088.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000093.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000096.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000098.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000392.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000393.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000407.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000411.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000425.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000441.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000455.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000462.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000484.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000488.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000491.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000510.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/00000512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/07-1420605125-punctured-tyre-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/130826-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/134707067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/1416185421465_wps_1_Man_fixes_a_flat_tire_B5C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/14550587_G.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/1467787-159066744.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/160122_gma_benitez3_0740_16x9_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/18026e729d264ac1b78b3a16cbc4dfe4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/2639-577e4125edd3d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/500_F_93982883_eIDmBis3R6GdrEkwx0cIhCPubaRCEqni.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/550px-nowatermark-Fix-a-Flat-Tire-Step-12-Version-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/56424fee-2f85-4351-9f15-eb6435f87758-flattire2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/57925cdd-1cf6-49e7-82b0-20c8d0caeea4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/800px-Flat_Tire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/98874540-destroyed-blown-out-tire-with-exploded-shredded-and-damaged-rubber-on-a-modern-suv-automobile-flat-l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/BC100108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/abandoned-old-car-flat-tire-rusty-creeper-55951104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/abandoned-silver-car-road-car-junk-broken-crumpled-car-transport-street-flat-tire-abandoned-silver-car-122640584.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/abandoned-silver-car-road-car-junk-broken-crumpled-car-transport-street-flat-tire-abandoned-silver-car-122640627.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/accident-front-bumper-black-car-flat-tire-93461057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/broken-wheel-car-flat-tire-96781800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-car-tire-street-accident-68352319.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-tire-car-road-89104702.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-tire-car-road-89104705.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-tire-car-street-52272517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-tire-car-street-57813010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-tire-car-street-63286557.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/burst-tire-car-street-96430079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-emergency-standing-long-time-fall-unattended-flat-tire-91824091.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-flat-tire-21952507.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-flat-tire-rainy-day-onstreet-56441150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-flat-tire-rainy-day-street-71385370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-flat-tire-road-concrete-71385780.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-flat-tire-waiting-help-63286275.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-flat-tire-waiting-help-street-63286521.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-old-rusty-flat-tire-abandoned-94239598.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-old-rusty-flat-tire-abandoned-94239607.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-perforated-tire-perforated-tire-112890524.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-completely-damaged-leak-continue-driving-blowout-defect-failure-106922982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-leak-nail-pounding-flat-tyre-road-flatt-flatten-punctured-auto-wheel-104221277.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-leak-nail-pounding-flat-tyre-road-flatt-flatten-punctured-auto-wheel-104221337.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-leak-nail-pounding-flat-tyre-road-flatt-flatten-punctured-auto-wheel-104221502.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-leak-nail-pounding-flat-tyre-road-flatten-punctured-auto-wheel-car-tire-leak-nail-pounding-flat-104221623.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-leak-wheel-accident-66409234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-leak-wheel-accident-66409250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-tire-rusty-wheel-flat-close-up-95156714.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/car-wheel-flat-tire-road-78941959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/change-tire-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/changing-a-tyre_654x439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/changing-flat-tires.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/changingintraffic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/city-tow-truck-flat-tire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/close-up-flat-car-tire-gravel-road-centered-view-has-popped-room-copy-space-39601161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test/close-up-flat-tire-car-gravel-road-99044504.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000038.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_bumper/00000045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/139931401_7aee1a8035_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/176826169_6d2800de77_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/176826364_ea0cdb8bdd_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/1795926749_2ffa272028_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/186791934_4d34bc67ea_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/209698300_153278cf28_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/2380672220_5a228562bd_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/258811793_9a51ed8a20_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/2680891242_8ca7943eb6_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/2840471550_cd0b457ddc_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3092652030_71540d5247_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3186550563_9e2b738d16_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3504327748_d9fb1f82dc_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3759756038_f57ec56aa2_o-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3759756038_f57ec56aa2_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3876170637_6ee4f092c4_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/3902038510_7ea85325f1_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/4156737128_9d97eca36c_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/4254164453_abc47b64ba_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/431540984_5a1937842c_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/431541232_6590c28f0f_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/4625529018_ced2abaaa4_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/4625529956_78bbae599a_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/4626977001_eba3710252_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/4633428711_e2d1b0c362_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/5008391771_e7cc02710b_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/504714268_ab615e1c21_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/5319164030_5875da8500_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/5447028561_932a18f999_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/5731513056_4ca4d42c77_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/6295398911_07016c1b68_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/6295935936_168db49b90_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/6320008088_17d36c736a_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/6897876926_7e7af272fa_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/7193422258_84becee4d2_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/broken_windshield/7193751054_ca44ef6547_o-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/10503376325_74ac02aef5_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/123248831_0cfc4e2ded_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/12800672_a8fc59f4bd_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/1280px-'95-'98_Ford_Explorer_With_Flat_Tire.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/14970284369_95064e5d6e_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/22917218_b6952b18fc_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/2568985465_88d2aed0f3_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/2575112315_cff0e7c69b_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/2874277125_3176c5293a_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/308981939_c80014bba6_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/3843617175_24cce2c7b6_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/384px-Flat_tire_of_a_tractor.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/4848731851_2c633d6d74_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/494327200_c82ca3d8c3_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/5484583021_f511fa99df_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/6864369896_b471e2b541_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/Flat_Tire.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/Flat_tire-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/flat_tire/Flat_tire_on_Belarus_tractor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/10178917986_be6017aed7_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/10538921244_4f214545b7_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/1265166_9f83a4f57d_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/14316339702_bcccd9733d_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/15200382305_9eea27f53b_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/15615544591_b7b24862e1_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/15641088384_1b10daa833_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/15757022072_3d6bf49261_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/16678608434_d0f8ac8933_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/16774784696_35ee1f0741_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/192042997_7167595cb8_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/2041180725_59ee5a95a0_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/2346865680_480bc4c4f0_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/244645525_8ab7f41a66_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/312677831_0dedad1fe8_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/341307654_e3d8967dc8_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/3445356918_512eba50e2_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/3576633921_7a637129fa_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/3603002470_8ec47a7137_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/3662588448_669779440a_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/4506002193_c95a86c065_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/471673144_db6330c245_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/4843774548_9444b42d38_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/4846916258_cc59113be9_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/4966161990_4c40b05b2f_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/509599451_8762ab1ce6_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/509599737_6858dd5b78_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/509600043_5edbcd52b4_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/5222882779_3f758bc1d7_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/5233319853_5f7fb84ebe_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/5281755975_ff947ab95b_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/5282100170_aff0061fde_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/6022962896_00187574a6_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/6186385575_5331a8339f_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/6415174819_420e9bb684_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/6512421225_a81e4951b7_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/7802958198_ff46fda50a_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/8509688855_4a994d863b_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/validation/positives/8654115859_d5cab5751a_b.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_try50.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_trydropout.h5" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,15 +299,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/damage_analyser$main.coverage" NAME="main Coverage Results" MODIFIED="1538535608608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/damage_analyser$main.coverage" NAME="main Coverage Results" MODIFIED="1538828157704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+            <state relative-caret-position="1047">
+              <caret line="80" column="76" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -44,6 +330,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/api.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -67,6 +354,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +376,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,7 +396,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="damage_analyser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="damage_analyser" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,9 +435,14 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.api" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.api" />
       </list>
     </recent_temporary>
   </component>
@@ -150,21 +461,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3298611" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32900944" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2818396" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -184,6 +494,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2860">
@@ -261,10 +591,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+        <state relative-caret-position="1047">
+          <caret line="80" column="76" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
