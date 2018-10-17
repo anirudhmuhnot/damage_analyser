@@ -2,16 +2,12 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import dash
-from tensorflow.keras import backend as K
-import cv2
 import time
-from base64 import decodestring
-import numpy as np
 import random
-#from tensorflow import keras
-import tensorflow as tf
-
-
+from google.cloud import automl_v1beta1
+from base64 import decodestring
+from google.oauth2 import service_account
+import operator
 app = dash.Dash()
 app.config.supress_callback_exceptions = True
 server = app.server
@@ -79,80 +75,38 @@ app.layout = html.Div([
 ])
 
 
+def get_prediction(content):
+    project_id = 'prefab-root-213517'
+    model_id = 'ICN8410956039961963412'
+    credentials = service_account.Credentials.from_service_account_file('key.json')
+    prediction_client = automl_v1beta1.PredictionServiceClient(credentials=credentials)
+    name = 'projects/{}/locations/us-central1/models/{}'.format(project_id, model_id)
+    payload = {'image': {'image_bytes': content}}
+    params = {"score_threshold": '0.0'}
+    request = prediction_client.predict(name, payload, params)
+    return request  # waits till request is returned
+
 def parse_contents(contents, filename, m):
-    tf.keras.backend.clear_session()
-    lookup = {
-        0: 'Broken Windshield',
-        1: 'Bumper Damage',
-        2: 'Car Accident',
-        3: "Flat Tire",
-        4: "No Damage(flat_tire)",
-        5: "No Damage(accident)",
-        6: "No Damage(body)",
-        7: "No Damage(windshield)",
-    }
-
-    img_width, img_height = 150, 150
-    if K.image_data_format() == 'channels_first':
-        input_shape = (3, img_width, img_height)
-    else:
-        input_shape = (img_width, img_height, 3)
-
-
-    # model = Sequential()
-    # model.add(Conv2D(32, (3, 3), input_shape=input_shape))
-    # model.add(Activation('relu'))
-    # model.add(MaxPooling2D(pool_size=(2, 2)))
-    #
-    # model.add(Conv2D(32, (3, 3)))
-    # model.add(Activation('relu'))
-    # model.add(MaxPooling2D(pool_size=(2, 2)))
-    #
-    # model.add(Conv2D(64, (3, 3)))
-    # model.add(Activation('relu'))
-    # model.add(MaxPooling2D(pool_size=(2, 2)))
-    #
-    # model.add(Flatten())
-    # model.add(Dense(64))
-    # model.add(Activation('relu'))
-    # model.add(Dropout(0.5))
-    # model.add(Dense(4, activation='softmax'))
-    #
-    # model.compile(loss='categorical_crossentropy',
-    #               optimizer='rmsprop',
-    #               metrics=['accuracy'])
-    #
-    # model.compile(loss='categorical_crossentropy',
-    #                   optimizer='rmsprop',
-    #                   metrics=['accuracy'])
-    #
-    # model.load_weights('first_try.h5')
-    #
-    model = tf.keras.applications.Xception(include_top=True, weights=None, input_tensor=None, input_shape=input_shape,
-                                           pooling='max', classes=8)
-    model.compile(loss='categorical_crossentropy',
-                  optimizer='rmsprop',
-                  metrics=['accuracy'])
-    model.load_weights('xception1/weights_35epoch_8classes.h5')
     image = contents.split(',')[1]
     data = decodestring(image.encode('ascii'))
-    with open("data/test/"+filename, "wb") as f:
+    with open("data/test/" + filename, "wb") as f:
         f.write(data)
-    img = cv2.imread('data/test/'+filename)
-    img = cv2.resize(img, (150, 150))
-    img = img.reshape([1, 150, 150, 3])
-    pred = model.predict(img)
-    index = np.unravel_index(np.argmax(pred, axis=None), pred.shape)
-    cat = lookup[index[1]]
-    #value = pred[index]
+    with open("data/test/" + filename, "rb") as image_file:
+        content = image_file.read()
+    r = get_prediction(content)
+    d = {}
+    for response in r.payload:
+        d[response.display_name]=response.classification.score
+    pred = max(d.items(), key=operator.itemgetter(1))[0]
     return html.Div(className='col s6 m6 l6 animated '+m,children=[
         html.H5(className='grey-text',children=['Filename: '+filename]),
         html.Hr(),
         #set img size
         html.Img(className='responsive-img',src=contents),
-        html.H5('Predicted category of vehicle is: '+cat),
+        html.H5('Predicted category of vehicle is: '+pred),
         html.Hr()
     ])
+
 
 
 @app.callback(Output('output-data-upload', 'children'),
